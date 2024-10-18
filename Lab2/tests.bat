@@ -1,0 +1,1 @@
+type test1.txt | SimplexMethod.py
