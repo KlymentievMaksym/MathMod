@@ -38,7 +38,7 @@ class MonteCarlo:
             self._function(x, y)
             self.ready += 1
             self._progressbar()
-        print(f"Space of needed area: {self.count * self.space / self.n}")
+        print(f"Needed area: {self.count * self.space / self.n}")
         return self.count * self.space / self.n
 
 
